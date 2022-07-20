@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MarketplacesIntegration.Data\MarketplacesIntegration.Data.csproj" />
     <ProjectReference Include="..\MarketplacesIntegration.Shared\MarketplacesIntegration.Shared.csproj" />
   </ItemGroup>
 
