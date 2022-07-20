@@ -7,4 +7,7 @@ using System.Threading.Tasks;
 
 namespace MarketplacesIntegration.Core.Repositories
 {
+    public interface IRepository<TEntity> where TEntity : class
+    {
+    }
 }
