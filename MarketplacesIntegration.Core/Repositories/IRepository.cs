@@ -5,10 +5,6 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarketplacesIntegration.Core
+namespace MarketplacesIntegration.Core.Repositories
 {
-    public interface IRepository<TEntity> where TEntity : class
-    {
-
-    }
 }
